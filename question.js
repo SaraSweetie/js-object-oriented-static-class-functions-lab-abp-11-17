@@ -6,5 +6,6 @@ constructon(content){
 this.content= content
 
 }
+this.constructor._All.push(this)
 
 }
