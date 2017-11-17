@@ -13,7 +13,7 @@ class Question {
     return this._All;
   }
 
-  static Find(id) {
+  static Find(ID) {
     return this.All()[id-1]
   }
 
